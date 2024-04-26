@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+altair = "*"
+certifi = "*"
+gunicorn = "*"
+jinja2 = "*"
+joblib = "*"
+jupyter = "*"
+numpy = "*"
+monsterlab = "*"
+pandas = "*"
+pymongo = {extras = ["srv"], version = "*"}
+python-dotenv = "*"
+scikit-learn = "*"
+scipy = "*"
+fortuna = {path = "./fortuna-bin-win64/Fortuna-5.1.5-cp311-cp311-win_amd64.whl"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
